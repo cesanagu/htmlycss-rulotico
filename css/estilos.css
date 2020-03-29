@@ -21,6 +21,11 @@ nav{
   border-radius: 10px;
 }
 
+#logo:hover{
+  width: 40px;
+  height: auto;
+}
+
 nav ul{
   display: flex;
 }
