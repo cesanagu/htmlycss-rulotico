@@ -7,8 +7,8 @@ html, body{
 
 nav{
   display: flex;
-  background-color: blue;
-  padding:10px;
+  background-color: #333;
+  padding: 5px 10px;
   font-size: 12px;
   font-family: sans-serif;
   justify-content: space-between;
@@ -19,11 +19,6 @@ nav{
   width: 35px;
   height: auto;
   border-radius: 10px;
-}
-
-#logo:hover{
-  width: 40px;
-  height: auto;
 }
 
 nav ul{
@@ -44,4 +39,47 @@ nav li a:hover{
   color:red;
 }
 
-/* estilos nav fin */
+/* hero */
+
+.hero{
+  display: flex;
+  height: 600px;
+  background-image: url(../imagenesfla/hero2.jpg);
+  background-size: cover;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hero-text{
+  display: block;
+  padding: 5px 10px;
+  color: #000;
+  background-color: lightsalmon;
+  border: 1px solid #000;
+  border-radius: 30px;
+  margin-left: 50px;
+  font-family: fantasy;
+}
+
+#h1-hero{
+  font-size: 20px;
+  text-align: center;
+}
+
+.hero-text:hover{
+  background-color: indianred;
+}
+
+
+
+
+/* .container{
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+*/
