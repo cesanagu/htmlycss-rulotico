@@ -1,6 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+--green-color: #7acc2d;
+--white-color: white;
+--black-color: #000;
+/* tipografia */
+--normal: 12px;
+/* espaciado */
+--space: 10px;
+/* box shadow */
+--box:0 0 1px #c1bcbc;
+}
+
 html, body{
   padding: 0;
   margin: 0;
+  font-family:'Open Sans', sans-serif;
 }
 
 /* estilos nav */
@@ -9,7 +25,7 @@ nav{
   display: flex;
   background-color: #333;
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: var(--normal);
   font-family: sans-serif;
   justify-content: space-between;
   align-items: center;
@@ -32,7 +48,7 @@ nav li{
 
 nav li a{
   text-decoration: none;
-  color: white;
+  color: var(--white-color);
 }
 
 nav li a:hover{
@@ -54,7 +70,7 @@ nav li a:hover{
   display: block;
   padding: 5px 10px;
   color: #000;
-  background-color: #7acc2d;
+  background-color: var(--green-color);
   border: 1px solid #000;
   border-radius: 30px;
   margin-left: 50px;
@@ -93,9 +109,9 @@ nav li a:hover{
 }
 
 .product .content{
-  background-color: white;
-  padding: 10px;
-  box-shadow: 0 0 1px #c1bcbc;
+  background-color: var(--white-color);
+  padding: var(--space);
+  box-shadow: var(--box);
 }
 
 .img-content{
@@ -103,14 +119,14 @@ nav li a:hover{
 }
 
 .main-button{
-  background-color: #7acc2d;
+  background-color: var(--green-color);
   width: 100%;
-  padding: 10px;
-  font-size: 12px;
-  color: #fff;
+  padding: var(--space);
+  font-size: var(--normal);
+  color: var(--white-color);
   border: 0;
   cursor:pointer;
-  border-radius: 2px
+  border-radius: 2px;
 }
 
 .main-button:hover{
