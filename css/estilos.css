@@ -54,7 +54,7 @@ nav li a:hover{
   display: block;
   padding: 5px 10px;
   color: #000;
-  background-color: lightsalmon;
+  background-color: #7acc2d;
   border: 1px solid #000;
   border-radius: 30px;
   margin-left: 50px;
@@ -67,9 +67,55 @@ nav li a:hover{
 }
 
 .hero-text:hover{
-  background-color: indianred;
+  background-color: #5e9e22;
 }
 
+/* main section */
+
+.main-section{
+  padding: 15%;
+  text-align: center;
+}
+
+.products{
+  background-image: url("../imagenesfla/curve.png");
+  max-height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 20%;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.product{
+  padding: 10px;
+  margin-top: -240px;
+}
+
+.product .content{
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 1px #c1bcbc;
+}
+
+.img-content{
+  text-align: center;
+}
+
+.main-button{
+  background-color: #7acc2d;
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  color: #fff;
+  border: 0;
+  cursor:pointer;
+  border-radius: 2px
+}
+
+.main-button:hover{
+  background-color: #5e9e22;
+}
 
 
 
