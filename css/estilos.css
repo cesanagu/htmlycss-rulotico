@@ -10,7 +10,7 @@
 /* espaciado */
 --space: 10px;
 /* box shadow */
---box:0 0 1px #c1bcbc;
+--box:0 0 2px #c1bcbc;
 }
 
 html, body{
@@ -133,7 +133,65 @@ nav li a:hover{
   background-color: #5e9e22;
 }
 
+/* beneficios */
 
+.benefits{
+  display: flex;
+  height: 900px;
+  justify-content: center;
+  align-items: center;
+  background-color: #06d7a0;
+}
+
+.beneficios{
+    height: 600px;
+}
+
+.bene-title{
+  text-align: center;
+}
+
+.bene-title h1{
+  font-size: xx-large;
+  margin: 5px;
+}
+
+.bene-products{
+  max-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.bene-product{
+  padding: var(--space);
+  text-align: center;
+}
+
+.bene-content{
+  /* background-color: var(--white-color); */
+  padding: var(--space);
+  box-shadow: 0 0 3px #000;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.bene-content:hover{
+  box-shadow: 0 0 5px #000;
+  background-color: #00ffbd;
+}
+
+.bene-content h1{
+  margin: 5px 0px;
+}
+
+.bene-content p{
+  margin: 5px 0px;
+}
+
+.bene-imagen{
+  width: 100%;
+  border-radius: 5px;
+}
 
 /* .container{
   width: 1000px;
