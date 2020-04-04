@@ -1,0 +1,70 @@
+@media (max-width: 600px) {
+
+.hero{
+  background-position: center;
+  height: 800px;
+  background-image: url(../imagenesfla/hero4.jpg);
+  justify-content: center;
+}
+
+/* .hero-text{
+  background-image: url(../imagenesfla/flechas.png);
+  background-color: transparent;
+  margin-left: 0px;
+  width: 40px;
+  height: 50px;
+  background-size: cover;
+  border: none;
+  background-position: center;
+  border-radius: unset;
+}
+
+.hero-text h1{
+  display: none;
+}
+
+.nav_options li{
+  font-size: 14px;
+}
+
+#logo{
+  width: 55px;
+} */
+
+.products{
+  width: fit-content;
+}
+
+.product{
+  margin-top: auto;
+}
+
+.main-section, .bene-title, .men-title{
+  padding: 4%;
+}
+
+.benefits, .mentions, .products,
+.beneficios, .menciones, .memorable,
+.bene-products, .men-products
+{
+  display: inherit;
+  height: auto;
+}
+
+.bene-product, .men-product{
+  padding: 5% 10%;
+}
+
+.bene-img-content, .bene-content, .men-img-content, .men-content{
+  width:auto;
+}
+
+footer{
+  display: block;
+}
+
+footer div{
+  justify-content: center;
+}
+
+}
