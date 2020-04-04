@@ -7,7 +7,7 @@
   justify-content: center;
 }
 
-/* .hero-text{
+.hero-text{
   background-image: url(../imagenesfla/flechas.png);
   background-color: transparent;
   margin-left: 0px;
@@ -29,7 +29,7 @@
 
 #logo{
   width: 55px;
-} */
+}
 
 .products{
   width: fit-content;
