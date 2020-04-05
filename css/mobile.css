@@ -59,12 +59,23 @@
   width:auto;
 }
 
+.contact{
+  display: block;
+}
+
+.social, .form-email{
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
 footer{
   display: block;
 }
 
 footer div{
   justify-content: center;
+  text-align: center;
 }
 
 }
