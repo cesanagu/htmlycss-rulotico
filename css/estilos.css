@@ -28,6 +28,8 @@ body{
 nav{
   position:sticky;
   top: 0px;
+  z-index: 10;
+  border-bottom: 1px solid #fff;
   display: flex;
   background-color: #093145;
   padding: 5px 10px;
@@ -82,6 +84,10 @@ nav li a:hover{
   margin-left: 50px;
   cursor: pointer;
   /* font-family: fantasy; */
+}
+
+.hero a{
+  text-decoration: none;
 }
 
 #h1-hero{

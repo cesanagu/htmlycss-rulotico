@@ -23,8 +23,13 @@
   display: none;
 }
 
+nav{
+  border: 2px solid #fff;
+}
+
 .nav_options li{
   font-size: 14px;
+  padding-left: 10px;
 }
 
 #logo{
