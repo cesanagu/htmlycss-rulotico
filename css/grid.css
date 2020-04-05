@@ -1,0 +1,110 @@
+.container{
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.p1i, .p2d{
+  width: 30%;
+}
+
+.p1d, .p2i{
+  width: 70%;
+  text-align: center;
+  max-width: 550px;
+  /* display: block; */
+}
+
+.p1d, .p2i{
+  padding: 10px;
+}
+
+.row-img{
+  width: 300px;
+  height: 250px;
+  box-shadow: 0 0 5px #fff;
+  object-fit: cover;
+  /* display: block; */
+}
+
+footer{
+  padding-top: 20px;
+}
+
+.social{
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px 10px 0px;
+}
+
+.social-link{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  background-size: 50px 50px;
+  text-align: center;
+}
+
+.social-link.twitter{
+  background-image: url("../imagenesfla/twitter.svg");
+}
+
+.social-link.facebook{
+  background-image: url("../imagenesfla/facebook.svg");
+}
+
+.social-link.github{
+  background-image: url("../imagenesfla/github.svg");
+}
+
+.social-link.instagram{
+  background-image: url("../imagenesfla/logo-de-instagram.svg");
+}
+
+@media (max-width:900px) {
+.row{
+  display: inherit;
+}
+
+.p1d, .p1i, .p2i, .p2d{
+  width: 100%;
+  text-align: center;
+  max-width: none;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+#medio{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.p1d, .p2i{
+  padding: 0px;
+  margin: 0.10em 0;
+}
+
+.p1d h1, .p2i h1{
+  margin: 0.10em 0;
+}
+
+.p1d p, .p2i p{
+  margin-block-start: 0.5em;
+}
+
+footer{
+  padding-top: 10px;
+}
+
+#footer1{
+  display: none;
+}
+
+}
