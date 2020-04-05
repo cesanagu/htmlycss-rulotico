@@ -66,7 +66,7 @@ nav li a:hover{
 .hero{
   display: flex;
   height: 600px;
-  background-image: url(../imagenesfla/hero2.webp);
+  background-image: url(../imagenesfla/hero2.jpg);
   background-size: cover;
   justify-content: flex-start;
   align-items: center;

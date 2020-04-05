@@ -3,12 +3,12 @@
 .hero{
   background-position: center;
   height: 800px;
-  background-image: url(../imagenesfla/hero4.webp);
+  background-image: url(../imagenesfla/hero4.jpg);
   justify-content: center;
 }
 
 .hero-text{
-  background-image: url(../imagenesfla/flechas.webp);
+  background-image: url(../imagenesfla/flechas.png);
   background-color: transparent;
   margin-left: 0px;
   width: 40px;
