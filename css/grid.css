@@ -39,13 +39,6 @@
   padding: 10px;
 }
 
-.row-img{
-  width: 300px;
-  height: 250px;
-  box-shadow: 0 0 5px #fff;
-  object-fit: cover;
-}
-
 footer{
   padding-top: 20px;
 }

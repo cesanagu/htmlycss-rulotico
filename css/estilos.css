@@ -374,15 +374,25 @@ footer a:hover{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* venta */
 
 
-/* .container{
-  width: 1000px;
-  margin: 0 auto;
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  height: inherit;
-  flex-wrap: inherit;
+.modulo_pago{
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space);
+  border: 2px solid red;
 }
-*/
+
+.modulo-cajaimagen{
+  max-width: 150px;
+  text-align: center;
+  /* width: 100%; */
+  margin: auto;
+}
+
+.modulo-img{
+  width: 150px;
+  height: auto;
+  /* width: 100%; */
+}
