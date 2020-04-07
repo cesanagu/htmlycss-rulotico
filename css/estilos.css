@@ -374,25 +374,55 @@ footer a:hover{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+label, p{
+  font-size: var(--normal);
+}
+
 /* venta */
 
+.col-8{
+  padding: 40px 0px;
+}
+
+.col-4{
+  padding: 20px 0px;
+}
 
 .modulo_pago{
-  background-color: var(--white-color);
+  background-color: #0d3d56;
   box-shadow: var(--box);
   padding: var(--space);
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  text-align: center;
 }
 
 .modulo-cajaimagen{
   max-width: 150px;
   text-align: center;
-  /* width: 100%; */
+  width: 100%;
   margin: auto;
 }
 
 .modulo-img{
-  width: 150px;
-  height: auto;
-  /* width: 100%; */
+  width: 100%;
+}
+
+.data{
+  margin-top: var(--space);
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+}
+
+.main-btn{
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.main-btn:hover{
+  box-shadow: 0 0 5px #fff;
+  background-color: #0d3d56;
 }
