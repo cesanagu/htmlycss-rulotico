@@ -37,6 +37,11 @@
 
 .p1d, .p2i{
   padding: 10px;
+  color: #000;
+}
+
+.productos-a{
+  text-decoration: none;
 }
 
 footer{

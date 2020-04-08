@@ -8,6 +8,10 @@ body{
   height: 100vh;
 }
 
+.giphy-embed{
+  border-radius: 5px;
+}
+
 #logo-exito{
   border-radius: 8px;
   width: 80px;
