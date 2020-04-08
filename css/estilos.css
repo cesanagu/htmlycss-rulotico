@@ -380,19 +380,10 @@ label, p{
 
 /* venta */
 
-.col-8{
-  padding: 40px 0px;
-}
-
-.col-4{
-  padding: 20px 0px;
-}
-
 .modulo_pago{
   background-color: #0d3d56;
   box-shadow: var(--box);
   padding: var(--space);
-  /* border: 2px solid red; */
   text-align: center;
 }
 
@@ -425,4 +416,13 @@ label, p{
 .main-btn:hover{
   box-shadow: 0 0 5px #fff;
   background-color: #0d3d56;
+}
+
+/* responsive pag venta */
+@media (max-width: 900px) {
+
+  .col-8, .col-4{
+    padding: 10px 0px !important;
+  }
+
 }
