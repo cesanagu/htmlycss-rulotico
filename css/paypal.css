@@ -21,3 +21,11 @@ body{
 #logo-exito:hover{
   transform: scale(1.2);
 }
+
+@media (max-width: 900px) {
+  .giphy-embed{
+    width: 100%;
+    height: 300px;
+  }
+
+}
