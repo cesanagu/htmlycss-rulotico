@@ -1,3 +1,61 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?d6v1wx');
+  src:  url('../fonts/icomoon.eot?d6v1wx#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?d6v1wx') format('truetype'),
+    url('../fonts/icomoon.woff?d6v1wx') format('woff'),
+    url('../fonts/icomoon.svg?d6v1wx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-meni:before {
+  content: "\e9bd";
+}
+.icon-mail:before {
+  content: "\ea83";
+}
+.icon-facebook:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+
+
+/* fonts */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
@@ -93,6 +151,7 @@ nav li a:hover{
 #h1-hero{
   font-size: 20px;
   text-align: center;
+  color: #fff;
 }
 
 .hero-text:hover{
@@ -136,9 +195,8 @@ nav li a:hover{
   text-align: center;
 }
 
-.main-button{
+.main-button, .main-button-bene{
   background-color: var(--green-color);
-  width: 100%;
   padding: var(--space);
   font-size: var(--normal);
   color: var(--white-color);
@@ -151,18 +209,30 @@ nav li a:hover{
   background-color: #5e9e22;
 }
 
+.main-button-bene:hover{
+  background-color: #5e9e22;
+}
+
+.main-button-bene{
+  width: 50%;
+}
+
+.main-button{
+  width: 100%;
+}
+
 /* beneficios */
 
 .benefits{
-  display: flex;
+  /* display: flex; */
   height: 500px;
-  justify-content: center;
-  align-items: center;
-  /* background-color: #06d7a0; */
+  /* justify-content: center;
+  align-items: center; */
+  margin-top: 70px;
 }
 
 .beneficios{
-  height: 420px;
+  text-align: center;
 }
 
 .bene-title{
@@ -176,24 +246,28 @@ nav li a:hover{
 }
 
 .bene-products{
-  height: 95px;
+  height: 100%;
   display: flex;
   justify-content: center;
+
 }
 
 .bene-product{
   padding: var(--space);
   text-align: center;
+  width: 30%;
+  height: 100%;
 }
 
 .bene-content{
-  /* background-color: var(--white-color); */
-  /* background-color: lightgreen; */
-  background-color: #3c6478;
   padding: var(--space);
-  box-shadow: 0 0 5px #fff;
-  width: 300px;
   border-radius: 10px;
+  border: 1px solid cyan;
+  height: 100%;
+}
+
+.bene-content p{
+  text-align: justify;
 }
 
 .bene-content h1, .bene-content p{
@@ -202,8 +276,9 @@ nav li a:hover{
 }
 
 .bene-img-content{
-  width: 300px;
+  /* width: 300px; */
   height: 250px;
+  width: 100%;
 }
 
 .bene-imagen{
@@ -225,6 +300,7 @@ nav li a:hover{
 
 .menciones{
   height: 520px;
+  width: 90%;
 }
 
 .men-title{
@@ -237,24 +313,31 @@ nav li a:hover{
   color: var(--white-color);
 }
 
-.men-products{
+.men-products, .men-products-down{
   height: 95px;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
-.men-product{
+.men-product, .men-product-down{
   padding: var(--space);
   text-align: center;
 }
 
+.men-product{
+  width: 40%;
+}
+
+.men-product-down{
+  width: 35%;
+}
+
 .men-content{
-  /* background-color: var(--white-color); */
-  /* background-color: #3c6478; */
   padding: var(--space);
   box-shadow: 0 0 5px #fff;
   border-radius: 10px;
-  width: 250px;
+  /* width: 250px; */
   /* height: 500px; */
 }
 
@@ -268,7 +351,8 @@ nav li a:hover{
 }
 
 .men-content p{
-  margin: 5px 0px;
+  margin: 5px 0 15px;
+  text-align: justify;
 }
 
 .men-content h6{
@@ -280,8 +364,9 @@ nav li a:hover{
 }
 
 .men-img-content{
-  width: 250px;
+  /* width: 250px; */
   height: 350px;
+  width: 100%;
 }
 
 .men-imagen{
@@ -292,15 +377,12 @@ nav li a:hover{
 }
 
 footer{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-align: right;
   background-color: #093145;
   color: var(--white-color)
 }
 
 footer div{
-  display: flex;
   padding: 0px 15px
 }
 
@@ -321,30 +403,18 @@ footer a:hover{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
-.social-link{
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  margin: 0 10px;
-  background-size: 50px 50px;
+.icon-facebook, .icon-twitter, .icon-github, .icon-instagram{
+  text-decoration: none;
+  font-size: 40px;
+  color: #fff;
+  padding-right: 15px;
 }
 
-.social-link.twitter{
-  background-image: url("../imagenesfla/twitter.svg");
-}
-
-.social-link.facebook{
-  background-image: url("../imagenesfla/facebook.svg");
-}
-
-.social-link.github{
-  background-image: url("../imagenesfla/github.svg");
-}
-
-.social-link.instagram{
-  background-image: url("../imagenesfla/logo-de-instagram.svg");
+form{
+  margin-left: 20px;
 }
 
 .form-email input{
@@ -359,10 +429,10 @@ footer a:hover{
   background-position-x: 5px;
 }
 
-.for-email button{
+.form-email button{
   display: block;
   margin-top: 10px;
-  background: transparent;
+  background-color: #607D8B;
   color: white;
   padding: 10px 0px;
   border-radius: 5px;
@@ -418,11 +488,16 @@ label, p{
   background-color: #0d3d56;
 }
 
+.social-venta{
+  text-align: center;
+}
+
 /* responsive pag venta */
 @media (max-width: 900px) {
 
   .col-8, .col-4{
     padding: 10px 0px !important;
   }
+
 
 }

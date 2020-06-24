@@ -48,36 +48,12 @@ footer{
   padding-top: 20px;
 }
 
-.social{
-  width: 100%;
-  text-align: center;
-  padding: 20px 0px 10px 0px;
+.social, .social-venta{
+  padding: 20px 0;
 }
 
-.social-link{
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  margin: 0 10px;
-  background-size: 50px 50px;
-  text-align: center;
 }
 
-.social-link.twitter{
-  background-image: url("../imagenesfla/twitter.svg");
-}
-
-.social-link.facebook{
-  background-image: url("../imagenesfla/facebook.svg");
-}
-
-.social-link.github{
-  background-image: url("../imagenesfla/github.svg");
-}
-
-.social-link.instagram{
-  background-image: url("../imagenesfla/logo-de-instagram.svg");
-}
 
 @media (max-width:900px) {
 .row{
