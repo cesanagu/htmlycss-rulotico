@@ -187,6 +187,7 @@ footer div{
 
   .blogpost-main-container img{
     width: 100%;
+    padding: 10px 0;
   }
 }
 
@@ -198,7 +199,7 @@ footer div{
   }
 
   .blogpost-main-container {
-    padding: 0 35px 40px;
+    padding: 0 25px;
   }
 
   .blogpost-main-container article h1{
