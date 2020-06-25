@@ -32,7 +32,7 @@
   width: 70%;
   text-align: center;
   max-width: 350px;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.6);
 }
 
 .p1d, .p2i{
@@ -93,4 +93,32 @@ footer{
   display: none;
 }
 
+}
+
+@media (max-width:480px) {
+
+  .row1, .row2, .row3{
+  justify-content: center;
+  }
+
+  .p1d, .p2i{
+    width: 90%;
+    background-color: rgba(255,255,255,0.7);
+  }
+
+  .p1d h1, .p2i h1{
+    font-size: 35px;
+    margin-bottom: 0px;
+  }
+
+  .p1d p, .p2i p{
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width:320px){
+  .p1d, .p2i{
+    width: 80%;
+  }
 }
