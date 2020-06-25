@@ -1,3 +1,9 @@
+@media (max-width: 900px) {
+
+  .col-8, .col-4{
+    padding: 10px 0px !important;
+  }
+}
 
 @media (max-width: 600px) {
 
@@ -123,8 +129,6 @@ footer div{
   text-align: center;
 }
 
-}
-
 /* producto pagina */
 
 .container h1{
@@ -143,6 +147,12 @@ footer div{
 
 .p1d h1, .p2i h1{
   color: #000;
+}
+
+ .blogpost-main-container img{
+   width: 50%;
+ }
+
 }
 
 @media (max-width:480px) {
@@ -169,9 +179,29 @@ footer div{
   .men-content a button{
     font-size: 16px;
   }
+
+  .blogpost-img-container{
+    height: auto;
+    padding: 0 25px 10px;
+  }
+
+  .blogpost-main-container img{
+    width: 100%;
+  }
 }
 
 
 @media (max-width:320px) {
 
+  .blogpost-img-container{
+    padding: 0 5px 5px;
+  }
+
+  .blogpost-main-container {
+    padding: 0 35px 40px;
+  }
+
+  .blogpost-main-container article h1{
+    font-size: 25px;
+  }
 }
